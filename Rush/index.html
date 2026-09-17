@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Our Portfolio</a>
+
+        <button id="menuButton" class="btn btn-outline-light d-md-none" type="button">☰</button>
+
+        <div id="navLinks" class="nav-links d-none d-md-flex gap-3">
+            <a href="#home">Home</a>
+            <a href="#members">Members</a>
+        </div>
+    </div>
+</nav>
+
+<header id="home" class="home-section text-center">
+    <div class="container">
+        <h1 class="mb-4">Our Portfolio</h1>
+        <p class="lead">
+            Welcome to our personal portfolio website.
+        </p>
+        <p class="lead mb-5">
+            We are second-year students specializing in Computer Engineering and Cybersecurity at KMITL. <br>
+            Explore this space to discover our programming projects, technical skills, and our journey in the tech world!
+        </p>
+        <a href="#members" class="btn btn-dark btn-lg px-4">View Portfolios</a>
+    </div>
+</header>
+
+<section id="members" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Members</h2>
+
+        <div class="row justify-content-center g-4">
+            <div class="col-md-5">
+                <div class="card h-100 text-center">
+                    <img src="https://cdn.phototourl.com/free/2026-09-17-6a60720a-951b-489e-935f-c7455f5fdf48.jpg" class="card-img-top member-image" alt="Person 1">
+                    <div class="card-body">
+                        <h3 class="h4">Sahapoom</h3>
+                        <p>Computer Engineering and Cybersecurity</p>
+                        <a href="portfolio1.html" class="btn btn-dark">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card h-100 text-center">
+                    <img src="https://cdn.phototourl.com/free/2026-09-17-e4b5ccaf-29da-4761-910f-bb3dd5120ac8.png" class="card-img-top member-image" alt="Person 2">
+                    <div class="card-body">
+                        <h3 class="h4">Chaimongkhon</h3>
+                        <p>Computer Engineering and Cybersecurity</p>
+                        <a href="portfolio2.html" class="btn btn-dark">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+    © 2026 Our Portfolio
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
